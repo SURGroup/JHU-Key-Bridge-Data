@@ -4,6 +4,7 @@
 This repository contains data, analysis, and visualizations related to bridge rankings and traffic data for various ship sizes and bridge locations. The project aims to provide insights into bridge usage patterns and rankings based on different criteria.
 
 ## Repository Structure
+```
 .
 ├── Bridge Rankings and Plots/
 │   ├── Bridge Results/
@@ -31,6 +32,7 @@ This repository contains data, analysis, and visualizations related to bridge ra
 │       └── Plots and Counts/
 │           ├── [Individual Bridge Name] counts.csv
 │           └── [Individual Bridge Name] plots.pdf
+```
 
 ### Contents Description
  **Bridge Results**
