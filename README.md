@@ -10,7 +10,7 @@ This repository contains data, analysis, and visualizations related to bridge ra
 ### Distribution of Ship Size for Individual Bridges
 - PDF files showing the distribution of ship sizes at specific bridges.
 
-**Further details can be found in the README file within that folder.**
+<ins>Further details can be found in the README file within that folder.</ins>
 
 ## Usage
 
