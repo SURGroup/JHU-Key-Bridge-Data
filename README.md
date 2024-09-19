@@ -1,5 +1,5 @@
 # Key Bridge Analysis Project Data
-This repository contains data, analysis, and visualizations related to bridge rankings and traffic data for various ship sizes and bridge locations. The project aims to provide insights into bridge usage patterns and rankings based on different criteria.
+This repository contains data, analysis, and visualizations related to bridge rankings and traffic data for various ship sizes and bridge locations. 
 
 
 ## Contents Description
