@@ -8,7 +8,7 @@ This repository contains data, analysis, and visualizations related to bridge tr
 - Contains folders with traffic data categorized by ship size.
 
 ### Distribution of Ship Size for Individual Bridges
-- PDF files showing the distribution of ship sizes at specific bridges.
+- PDF files showing the distribution of ship sizes passing under specific bridges.
 
 <ins>Further details can be found in the README file within that folder.</ins>
 
