@@ -1,5 +1,5 @@
 # Key Bridge Analysis Project Data
-This repository contains data, analysis, and visualizations related to bridge rankings and traffic data for various ship sizes and bridge locations. 
+This repository contains data, analysis, and visualizations related to bridge traffic under major U.S. bridges. 
 
 
 ## Contents Description
@@ -19,24 +19,15 @@ This repository contains data, analysis, and visualizations related to bridge ra
 3. For raw data, check the CSV files in the respective folders.
 4. To view plots and histograms, go to the `New Histograms and Plots for all Bridges` folder.
 
-## Contributing
-
-To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
 ## License
 
-[Include license information here]
+This work is licensed under CC BY-SA 4.0 
 
 ## Contact
 
-[Include contact information for the project maintainer]
+Michael Shields - michael.shields@jhu.edu
 
 ## Acknowledgments
 
-- List any acknowledgments or data sources here.
-- Include any relevant citations or references.
+- National Science Foundation - Award Number 2428805
+- NOAA Office for Coastal Management, Bureau of Ocean Energy Management, U.S. Coast Guard: https://hub.marinecadastre.gov/pages/vesseltraffic
