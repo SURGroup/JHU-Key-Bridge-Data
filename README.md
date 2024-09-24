@@ -18,8 +18,9 @@ This repository contains data, analysis, and visualizations related to bridge tr
 #### Cumulative Jan 2018 - Mar 2024 Ship Traffic
 - CSV files containing the total number of trips (January 2018 - March 2024) and the average number of trips per day for all bridges studied. These files were used to create the plots in "Bridge Ranking by Ship Traffic".
 
-#### Cumulative Jan 2018 - Mar 2024 Ship Traffic
-- CSV files containing the total number of trips (January 2018 - March 2024) and the average number of trips per day for all bridges studied. These files were used to create the plots in "Bridge Ranking by Ship Traffic".
+#### Traffic Distribution by Ship Size and Year - Jan 2018 - Mar 2024
+- CSV files containing the number of trips for each year (Jan 2018 - Mar 2024) for different categories of ship lengths for all bridges studied. These files were used to create the plots in "Distribution of Ship Size for Individual Bridges".
+
 
 ## Usage
 
