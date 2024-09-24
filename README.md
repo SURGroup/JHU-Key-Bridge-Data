@@ -12,6 +12,15 @@ This repository contains data, analysis, and visualizations related to bridge tr
 
 <ins>Further details can be found in the README file within that folder.</ins>
 
+### Raw Ship Traffic Data
+- CSV files containing ship traffic data under individual bridges; these files were used to create the plots in "Bridge Ranking by Ship Traffic" and "Distribution of Ship Size for Individual Bridges".
+
+#### Cumulative Jan 2018 - Mar 2024 Ship Traffic
+- CSV files containing the total number of trips (January 2018 - March 2024) and the average number of trips per day for all bridges studied. These files were used to create the plots in "Bridge Ranking by Ship Traffic".
+
+#### Cumulative Jan 2018 - Mar 2024 Ship Traffic
+- CSV files containing the total number of trips (January 2018 - March 2024) and the average number of trips per day for all bridges studied. These files were used to create the plots in "Bridge Ranking by Ship Traffic".
+
 ## Usage
 
 1. Navigate to the desired folder based on the analysis you're interested in.
