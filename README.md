@@ -12,6 +12,9 @@ This repository contains data, analysis, and visualizations related to bridge tr
 
 <ins>Further details can be found in the README file within that folder.</ins>
 
+### Ship Traffic by Bridge - Raw Data
+- CSV files showing the ship traffic raw data by individual bridges.
+
 ### Raw Ship Traffic Data
 - CSV files containing ship traffic data under individual bridges; these files were used to create the plots in "Bridge Ranking by Ship Traffic" and "Distribution of Ship Size for Individual Bridges".
 
