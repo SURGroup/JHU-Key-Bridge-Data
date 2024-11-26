@@ -21,6 +21,24 @@ This repository contains data, analysis, and visualizations related to bridge tr
 #### Traffic Distribution by Ship Size and Year - Jan 2018 - Mar 2024
 - CSV files containing the number of trips for each year (Jan 2018 - Mar 2024) for different categories of ship lengths for all bridges studied. These files were used to create the plots in "Distribution of Ship Size for Individual Bridges".
 
+### Processed Ship Traffic Data
+#### Description
+The processed dataset comprises **215 rows** and **149 columns**, representing the **215 bridges** included in this stage of the analysis. These bridges are primarily located along coastal areas, reflecting the focus on regions with significant maritime activity.
+
+#### Data Composition
+1. **NBI Data**:
+   - The first **123 columns** are sourced from the **National Bridge Inventory (NBI)** dataset.
+   - These columns include detailed attributes such as:
+     - Structural specifications
+     - Condition assessments
+     - Location details
+
+2. **Additional Columns**:
+   - The remaining columns provide:
+     - Standardized bridge names
+     - Precise location coordinates (start and end points)
+     - Traffic data derived from the **Automatic Identification System (AIS)**.
+
 
 ## Usage
 
