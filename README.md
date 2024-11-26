@@ -28,16 +28,12 @@ The processed dataset comprises **215 rows** and **149 columns**, representing t
 #### Data Composition
 1. **NBI Data**:
    - The first **123 columns** are sourced from the **National Bridge Inventory (NBI)** dataset.
-   - These columns include detailed attributes such as:
-     - Structural specifications
-     - Condition assessments
-     - Location details
 
 2. **Additional Columns**:
    - The remaining columns provide:
      - Standardized bridge names
      - Precise location coordinates (start and end points)
-     - Traffic data derived from the **Automatic Identification System (AIS)**.
+     - Traffic data derived from the **Automatic Identification System (AIS)** by different ship sizes.
 
 
 ## Usage
