@@ -1,0 +1,14 @@
+- **Daily_Trips_180**: The average number of daily trips made by ships less than 180 meters in length.
+- **Yearly_Trips_180**: The total number of trips made annually by ships less than 180 meters in length, aggregated over the period 2018–2023.
+- **Daily_Trips_215**: The average number of daily trips made by ships between 180 and 215 meters in length.
+- **Yearly_Trips_215**: The total number of trips made annually by ships between 180 and 215 meters in length, aggregated over the period 2018–2023.
+- **Daily_Trips_250**: The average number of daily trips made by ships between 215 and 250 meters in length.
+- **Yearly_Trips_250**: The total number of trips made annually by ships between 215 and 250 meters in length, aggregated over the period 2018–2023.
+- **Daily_Trips_275**: The average number of daily trips made by ships between 250 and 275 meters in length.
+- **Yearly_Trips_275**: The total number of trips made annually by ships between 250 and 275 meters in length, aggregated over the period 2018–2023.
+- **Daily_Trips_300**: The average number of daily trips made by ships between 275 and 300 meters in length.
+- **Yearly_Trips_300**: The total number of trips made annually by ships between 275 and 300 meters in length, aggregated over the period 2018–2023.
+- **Daily_Trips_large**: The average number of daily trips made by ships larger than 300 meters in length.
+- **Yearly_Trips_large**: The total number of trips made annually by ships larger than 300 meters in length, aggregated over the period 2018–2023.
+- **Total_Daily_Trips**: The average total number of daily trips made by all ships across all size categories.
+- **Total_Yearly_Trips**: The total number of trips made annually by all ships across all size categories, aggregated over the period 2018–2023.
