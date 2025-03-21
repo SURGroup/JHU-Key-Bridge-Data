@@ -170,16 +170,16 @@ for i in range(num_bridges):
         estimated_return_period_stats[i] = 1 / collision_probabilities_protected[i]
 
 # Create DataFrames for the estimated collision probability and estimated return period with the bridge names
-estimated_pf_stats_df = pd.DataFrame(collision_probabilities_protected, columns=['Estimated Probability of Collision'])
+estimated_collision_stats_df = pd.DataFrame(collision_probabilities_protected, columns=['Estimated Probability of Collision'])
 estimated_return_period_stats_df = pd.DataFrame(estimated_return_period_stats, columns=['Estimated Return Period of Collision'])
 
 # Fill out the DataFrames for the estimated collision probability and estimated return period with the bridge names
-estimated_pf_stats_df.insert(0, 'Name', bridge_names)
+estimated_collision_stats_df.insert(0, 'Name', bridge_names)
 estimated_return_period_stats_df.insert(0, 'Name', bridge_names)
 
 
 # # Save the DataFrames as CSV
-# os.chdir(cwd + '/Results')
-#
-# estimated_pf_stats_df.to_csv('estimated_pf_stats.csv')
-# estimated_return_period_stats_df.to_csv('estimated_return_period_stats.csv')
+os.chdir(cwd + '/Results')
+
+estimated_collision_stats_df.to_csv('estimated_probability_of_collision_stats.csv')
+estimated_return_period_stats_df.to_csv('estimated_return_period_stats.csv')
