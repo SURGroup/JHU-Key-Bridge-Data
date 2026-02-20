@@ -61,6 +61,4 @@ may_have_piers = nbi["SUBSTRUCTURE_COND_060"].apply(lambda x: str(x).lstrip(" ")
 
 
 valid_bridges = nbi[(over_water | navigable | water_under) & tall_enough & may_have_piers]
-
-
-print(f"Number of Valid Bridges: {valid_bridges.shape[0]}")
+valid_bridges.to_csv(os.path.join("Section_3_6_2_Initial_Traffic_Estimation","Valid_Bridges.csv"), index=False)
