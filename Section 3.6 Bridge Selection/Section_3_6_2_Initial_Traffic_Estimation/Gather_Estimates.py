@@ -28,7 +28,8 @@ if not os.path.exists(estimate_folder):
     os.makedirs(estimate_folder)
     
 # Subset of the NBI database
-from Section_3_6_1_Initial_NBI_Inspection import valid_bridges
+valid_bridge_file = "Bridges_that_pass_NBI_filters.csv"
+valid_bridges = pd.read_csv(valid_bridge_file)
 
 def triangular_projection(lat1, lon1, lat2, lon2):
     # Find the distance between two points using a triangular projection
@@ -124,4 +125,5 @@ if __name__ == "__main__":
 
 
     
+
 
