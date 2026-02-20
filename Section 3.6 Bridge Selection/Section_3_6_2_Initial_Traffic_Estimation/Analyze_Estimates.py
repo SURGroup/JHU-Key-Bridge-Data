@@ -10,9 +10,8 @@ curr_folder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(curr_folder)
 
 vicinity_traffic_estimation_file = "Vicinity_Traffic_Estimation.csv"
-
-from Section_3_6_1_Initial_NBI_Inspection import valid_bridges as valid_bridges
-
+valid_bridge_file = "Bridges_that_pass_NBI_filters.csv"
+valid_bridges = pd.read_csv(valid_bridge_file)
 
 estimate_df = pd.read_csv(vicinity_traffic_estimation_file,
                           dtype={"UNIQUE_IDENTIFIER": str}) # To prevent interpretation from removing leading zeros
