@@ -116,14 +116,10 @@ def process(file, min_ship_length, boundaries, pre_filter_folder, data_folder):
             # units = knots
         
         # Only keep points that aren't too fast or too slow
-        travels_at_appropraite_speeds = (velocities <= 40) # & (velocities > 0.5)
+        travels_at_appropraite_speeds = (velocities <= 40) 
             # One of the fastest cargo ships is the Maersk Boston, with top speed ~37 knots
             # Thus, it should be physically impossible for any ship to pass under a bridge faster than 40 knots
             
-        # Filter the appropriate dataframe based on bridge intersections
-        # filter_by_intersection(df[over_min_length & ~barge_or_tug],
-        #                        data_folder, date, boundaries)
-        
         filter_by_intersection(df[over_min_length & ~barge_or_tug & travels_at_appropraite_speeds],
                                data_folder, date, boundaries)
 
@@ -135,4 +131,5 @@ def process(file, min_ship_length, boundaries, pre_filter_folder, data_folder):
         print(f"File {file_name} failed, need to refilter!\n  Error: {e}", flush=True)
 
     return 
+
 
