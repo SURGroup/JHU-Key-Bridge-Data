@@ -7,9 +7,6 @@ import os
 curr_folder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(curr_folder)
 
-# Name of the folder where data is 
-data_folder = "Data_Folder"
-
 nbi_database_file = "2025HwyBridgesDelimitedAllStates.csv" # Name same as the file download
 
 avoid_interpreting = {"STATE_CODE_001": str,
@@ -18,8 +15,7 @@ avoid_interpreting = {"STATE_CODE_001": str,
                       "LONG_017":str}
 
 
-nbi = pd.read_csv(os.path.join(data_folder, nbi_database_file),
-                  dtype=avoid_interpreting).dropna(subset=["LAT_016","LONG_017"])
+nbi = pd.read_csv(nbi_database_file, dtype=avoid_interpreting).dropna(subset=["LAT_016","LONG_017"])
 
 # Ignore leading zeros and erroneous spaces so string equality can be checked
 nbi["STRUCTURE_NUMBER_008"] = nbi["STRUCTURE_NUMBER_008"].apply(lambda x: str(x).lstrip(" ").rstrip(" "))
