@@ -10,7 +10,7 @@ from matplotlib.lines import Line2D
 curr_folder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(curr_folder)
 
-from helper_functions_geometry_plotting import (
+from helper_functions import (
     triangular_projection, 
     direction,
     side,
