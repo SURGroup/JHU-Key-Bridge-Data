@@ -41,10 +41,10 @@ def intersection_analysis(normalized_intersections):
     
 
 # Full path to folder with bridge data
-data_folder = r"C:\Users\diran\Documents\Bridge Project\Complete_Breakdown\Section 3.4 Traffic Data Collection\Compiled_Data"
+data_folder = ""
 
 # Load bridge parameters from CSV file
-bridge_parameters_file = r"C:\Users\diran\Documents\Bridge Project\Complete_Breakdown\Section 3.4 Traffic Data Collection\Master_Bridge_Information.xlsx"
+bridge_parameters_file = "Master_Bridge_Information.xlsx"
 
 bridge_data = pd.read_excel(bridge_parameters_file, header=0, # index_col = 0,
                             usecols=["STRUCTURE_NAME", "START_X", "START_Y","END_X", "END_Y", "Reason for Exclusion"],
