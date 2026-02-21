@@ -133,7 +133,7 @@ for bridge in bridge_names:
         counts, bin_starts, bin_ends, bin_centers, travel_centerline_indices, travel_centers = intersection_analysis(normals)
         
         
-        # SUPER ARBITRARY, VIBES BASED
+        # If a bin has too little traffic, treat it as containing part of a pier
         pier_indicator = counts <= max(counts) * 0.01
         
         for length_bin in length_bins:
