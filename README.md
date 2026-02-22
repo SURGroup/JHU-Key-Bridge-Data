@@ -1,4 +1,4 @@
-# Key Bridge Analysis Project Data
+# Key Bridge Analysis Project Code and Data
 This repository contains the code and data used in the 2026 paper "THERE’S NO SUCH THING AS FREE SHIPPING: THE SIGNIFICANT
 RISK LARGE VESSELS POSE TO U.S. BRIDGES." 
 
