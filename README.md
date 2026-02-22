@@ -35,14 +35,6 @@ A brief summary of each section is provided below, and a more in-depth summary p
 - A precise allision probability estimation was made using the pier and protection data
 
 
-
-## Usage
-
-1. Navigate to the desired folder based on the analysis you're interested in.
-2. For rankings, refer to the PDF files in the `Rankings` folder.
-3. For raw data, check the CSV files in the respective folders.
-4. To view plots and histograms, go to the `New Histograms and Plots for all Bridges` folder.
-
 ## License
 
 This work is licensed under CC BY-SA 4.0 
