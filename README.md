@@ -8,7 +8,7 @@ There is a discrepancy between the section numbering, and the order in which cod
 The paper sections were ordered based on what made sense narratively. 
 
 To replicate the results in the paper, please run each section in the following order:
-1. <Section 3.1 Data Set - Download and Prefilter>
+1. [Section 3.1 Data Set - Download and Prefilter](./Section 3.1 Data Set - Download and Prefilter)
 2. <Section 3.4 Traffic Data Collection>
 3. <Section 3.5 Allision Probability Calculation>
 4. <Section 3.6 Bridge Selection>
