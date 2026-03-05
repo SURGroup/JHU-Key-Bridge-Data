@@ -14,7 +14,7 @@ curr_folder = os.path.dirname(os.path.abspath(__file__))
 os.chdir(curr_folder)
 
 from probability_calculator_by_pier import probability_calculator
-from helper_functions_geometry_plotting import remove_ship_teleportation, direction, triangular_projection
+from helper_functions import remove_ship_teleportation, direction, triangular_projection
 
 # Full path to folder with bridge data
 data_folder = ""
