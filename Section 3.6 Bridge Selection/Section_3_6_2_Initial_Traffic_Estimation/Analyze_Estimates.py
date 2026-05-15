@@ -49,7 +49,9 @@ def analyze_traffic(bridges_to_analyze, estimate_df, vertical_scale,
     traffic_levels = np.arange(min_traffic, max_traffic, step_size)
     
     heights = []
-    
+
+    threshold_traffic = 160 # Number of ships a bridge must see to be potentially at-risk
+                      
     for l in traffic_levels:
         threshold_bridges = set(all_bridges[(all_traffic / num_years_of_data) >= l])
         heights.append(len(threshold_bridges))
@@ -59,13 +61,13 @@ def analyze_traffic(bridges_to_analyze, estimate_df, vertical_scale,
     plt.xlabel("Threshold Number of Ships that get 'close' / Year")
     plt.ylabel("Number of Bridges with at least X level of traffic")
     plt.title("Proportion of bridges with threshold level of traffic")
-    plt.vlines(160, 0, max(heights), color="black", label="Conservative Threshold")
+    plt.vlines(threshold_traffic, 0, max(heights), color="black", label="Conservative Threshold")
     
     plt.yscale(vertical_scale)
         
     plt.show()
     
-    risky_list = (all_traffic / num_years_of_data) >= 160
+    risky_list = (all_traffic / num_years_of_data) >= threshold_traffic
     return set(analysis_df[risky_list]["UNIQUE_IDENTIFIER"].values)
 
 step_size = 1
