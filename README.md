@@ -9,9 +9,10 @@ The paper sections were ordered based on what made sense narratively.
 
 To replicate the results in the paper, please run each section in the following order:
 1. Section 3.1 Data Set - Download and Prefilter
-2. Section 3.4 Traffic Data Collection
-3. Section 3.5 Allision Probability Calculation
-4. Section 3.6 Bridge Selection
+2. Section 3.6 Bridge Selection
+3. Section 3.4 Traffic Data Collection
+4. Section 3.5 Allision Probability Calculation
+
 
 A brief summary of each section is provided below, and a more in-depth summary provided within the corresponding folder. 
 
@@ -20,7 +21,7 @@ A brief summary of each section is provided below, and a more in-depth summary p
 - Applies a few filters to trim down unnecessary data points.
 
 ### Section 3.6 Bridge Selection
-- Begins with the NBI, a list of all bridges in the United States.
+- Begins with the National Bridge Inventory, a list of all bridges in the United States.
 - Applies some simple filters to rule out bridges physically incapable of seeing large ship traffic.
 - Calculates a rough approximation of traffic under the remaining bridges.
 - Discards all bridges which cannot see enough traffic to be at-risk.
