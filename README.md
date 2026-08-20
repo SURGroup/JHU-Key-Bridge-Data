@@ -7,23 +7,22 @@ Each folder contains the code / data used in the corresponding section of the pa
 For more details, please read the section's corresponding ReadMe or the paper itself. 
 
 To replicate the results in the paper, please run each section in the following order:
-1. Bridge Selection
-2. Data Set - Download and Prefilter
+1. Data Set - Download and Prefilter
+2. Bridge Selection
 3. Traffic Data Collection
 4. Allision Probability Calculation
 
-
 A brief summary of each section is provided below:
+
+### Data Set - Download and Prefilter
+- Downloads a local copy of the AIS data base from Marine Cadastre.
+- Applies a few filters to trim down unnecessary data points.
 
 ### Bridge Selection
 - Begins with the NBI, a list of all bridges in the United States.
 - Applies some simple filters to rule out bridges physically incapable of seeing large ship traffic.
 - Calculates a rough approximation of traffic under the remaining bridges.
 - Discards all bridges which cannot see enough traffic to be at-risk.
-
-### Data Set - Download and Prefilter
-- Downloads a local copy of the AIS data base from Marine Cadastre.
-- Applies a few filters to trim down unnecessary data points.
   
 ### Traffic Data Collection
 - Takes the coordinates (manually collected) for each selected bridge after section and calculates a much more precise level of traffic for each.
