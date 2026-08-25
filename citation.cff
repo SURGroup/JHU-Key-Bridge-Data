@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: Allision Risk between Large Ships and US Bridges
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Michael
+    family-names: Shields
+    email: michael.shields@jh.edu
+    affiliation: Johns Hopkins University
+    orcid: 'https://orcid.org/0000-0003-1370-6785'
+  - given-names: Diran
+    family-names: Jimenez
+    email: diranjim@usc.edu
+    affiliation: Johns Hopkins University
+    orcid: 'https://orcid.org/0009-0003-7892-799X'
+  - given-names: Promit
+    family-names: Chakroborty
+    email: promit.chakroborty@vanderbilt.edu
+    affiliation: Vanderbilt University
+    orcid: 'https://orcid.org/0000-0003-4752-3813'
+  - given-names: Rachel
+    family-names: Sangree
+    email: sangree@jhu.edu
+    affiliation: Johns Hopkins University
+    orcid: 'https://orcid.org/0009-0000-8718-7653' 
+  - given-names: Benjamin
+    family-names: Schafer
+    email: schafer@jhu.edu
+    affiliation: Johns Hopkins University
+    orcid: 'https://orcid.org/0000-0002-5375-3511'
+identifiers:
+  - type: doi
+    value: 10.17603/ds2-ytp7-5s85
+    description: Database Archive DOI
+keywords:
+  - US bridges
+  - Large ships
+  - Allision risk
+  - Vulnerability assessment
+  - Risk assessment
+  - Man-Made Hazard
+license: CC-BY-SA-4.0
