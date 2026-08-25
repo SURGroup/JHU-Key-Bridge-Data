@@ -1,9 +1,10 @@
 cff-version: 1.2.0
 title: Allision Risk between Large Ships and US Bridges
-message: >-
-  If you use this dataset, please cite it using the metadata
-  from this file.
+message: If you use this dataset, please cite it using the metadata from this file.
 type: dataset
+doi: 10.17603/ds2-ytp7-5s85
+url: https://github.com/SURGroup/JHU-Key-Bridge-Data
+date-released: 2026-08-24
 authors:
   - given-names: Michael
     family-names: Shields
@@ -30,10 +31,6 @@ authors:
     email: schafer@jhu.edu
     affiliation: Johns Hopkins University
     orcid: 'https://orcid.org/0000-0002-5375-3511'
-identifiers:
-  - type: doi
-    value: 10.17603/ds2-ytp7-5s85
-    description: Database Archive DOI
 keywords:
   - US bridges
   - Large ships
